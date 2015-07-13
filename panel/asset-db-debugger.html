@@ -3,18 +3,16 @@
     <link rel="import" type="css" href="asset-db-debugger.css">
     <template>
         <editor-toolbar>
-            <editor-buttons class="classical" id="select" on-selected-changed="_onSelectedChanged">
-                <editor-buttons-item>URL TO UUID</editor-buttons-item>
+            <editor-button on-click="_refReshClick">
+                <i class="fa fa-rotate-right"></i>
+            </editor-button>
+            <span class="space"></span>
+            <editor-buttons  id="select" on-selected-changed="_onSelectedChanged">
+                <editor-buttons-item>URL to UUID</editor-buttons-item>
                 <editor-buttons-item>UUID to URL</editor-buttons-item>
             </editor-buttons>
             <span class="space"></span>
-            <editor-button on-click="_refReshClick">
-                <i class="fa fa-rotate-right"></i>
-                Refresh
-            </editor-button>
-            <span class="space"></span>
             <editor-input class="flex-1" placeholder="Search..." input-value="{{searchValue}}"></editor-input>
-            <i class="fa fa-search"></i>
         </editor-toolbar>
         <div class="view flex-1">
             <table>

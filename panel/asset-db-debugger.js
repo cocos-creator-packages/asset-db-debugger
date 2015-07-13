@@ -53,8 +53,8 @@ Editor.registerPanel( 'asset-db-debugger.panel', {
     },
 
     urlUuidAction: function () {
-        this.keyName = "URL";
-        this.valueName = "UUID";
+        this.keyName = 'URL';
+        this.valueName = 'UUID';
         Editor.sendRequestToCore('asset-db-debugger:query-info',function (results) {
             var tmpList = [];
             for ( var i = 0; i < results.length; ++i ) {
@@ -66,8 +66,8 @@ Editor.registerPanel( 'asset-db-debugger.panel', {
     },
 
     uuidUrlAction: function () {
-        this.keyName = "UUID";
-        this.valueName = "URL";
+        this.keyName = 'UUID';
+        this.valueName = 'URL';
         Editor.sendRequestToCore('asset-db-debugger:query-info',function (results) {
             var tmpList = [];
             for ( var i = 0; i < results.length; ++i ) {
