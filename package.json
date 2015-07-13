@@ -1,0 +1,25 @@
+{
+  "name": "asset-db-debugger",
+  "version": "0.0.1",
+  "description": "asset-db-debugger",
+  "author": "Firebox Technology",
+  "hosts": {
+      "editor-framework": "^0.3.10"
+  },
+  "main": "main.js",
+  "menus": {
+    "Developer/Asset-DB-Debugger": {
+      "message": "asset-db-debugger:open"
+    }
+  },
+  "panels": {
+    "panel": {
+      "frame": "panel/asset-db-debugger.html",
+      "type": "dockable",
+      "title": "Asset-DB-Debugger",
+      "height": 500,
+      "messages": [
+      ]
+    }
+  }
+}
