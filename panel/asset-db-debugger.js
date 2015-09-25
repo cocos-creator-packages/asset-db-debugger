@@ -1,6 +1,4 @@
 Editor.registerPanel( 'asset-db-debugger.panel', {
-    is: 'asset-db-debugger',
-
     properties: {
         infoList: {
             type: Boolean,
