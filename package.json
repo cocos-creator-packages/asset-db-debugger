@@ -9,8 +9,9 @@
   },
   "main": "main.js",
   "menus": {
-    "Developer/AssetDB Debugger": {
-      "message": "asset-db-debugger:open"
+    "i18n:MAIN_MENU.developer.title/AssetDB Debugger": {
+      "message": "asset-db-debugger:open",
+      "dev": true
     }
   },
   "panels": {
