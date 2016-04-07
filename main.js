@@ -12,7 +12,7 @@ module.exports = {
       Editor.Panel.open('asset-db-debugger.panel');
     },
 
-    'query-info' ( event, reply ) {
+    'query-info' ( event ) {
       var results = [];
       for ( var p in Editor.assetdb._path2uuid ) {
         var url = Editor.assetdb._url(p);
@@ -21,7 +21,7 @@ module.exports = {
       results.sort( function ( a, b ) {
         return a.url.localeCompare(b.url);
       });
-      reply(results);
+      event.reply(results);
     },
   },
 };

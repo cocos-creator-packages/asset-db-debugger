@@ -56,7 +56,7 @@
     urlUuidAction: function () {
       this.keyName = 'URL';
       this.valueName = 'UUID';
-      Editor.sendRequestToCore('asset-db-debugger:query-info',function (results) {
+      Editor.Ipc.sendToMain('asset-db-debugger:query-info',function (results) {
         var tmpList = [];
         for ( var i = 0; i < results.length; ++i ) {
           var info = results[i];
@@ -69,7 +69,7 @@
     uuidUrlAction: function () {
       this.keyName = 'UUID';
       this.valueName = 'URL';
-      Editor.sendRequestToCore('asset-db-debugger:query-info',function (results) {
+      Editor.Ipc.sendToMain('asset-db-debugger:query-info',function (results) {
         var tmpList = [];
         for ( var i = 0; i < results.length; ++i ) {
           var info = results[i];
