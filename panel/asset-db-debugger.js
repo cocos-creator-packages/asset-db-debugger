@@ -1,7 +1,7 @@
 (() => {
   'use strict';
 
-  Editor.registerPanel( 'asset-db-debugger.panel', {
+  Editor.polymerPanel( 'asset-db-debugger', {
     properties: {
       infoList: {
         type: Boolean,

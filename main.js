@@ -9,7 +9,7 @@ module.exports = {
 
   messages: {
     open () {
-      Editor.Panel.open('asset-db-debugger.panel');
+      Editor.Panel.open('asset-db-debugger');
     },
 
     'query-info' ( event ) {

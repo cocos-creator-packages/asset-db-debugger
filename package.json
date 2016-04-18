@@ -14,13 +14,11 @@
       "dev": true
     }
   },
-  "panels": {
-    "panel": {
-      "frame": "panel/asset-db-debugger.html",
-      "type": "dockable",
-      "title": "AssetDB Debugger",
-      "height": 500,
-      "messages": []
-    }
+  "panel": {
+    "main": "panel/asset-db-debugger.html",
+    "ui": "polymer",
+    "type": "dockable",
+    "title": "AssetDB Debugger",
+    "height": 500
   }
 }
