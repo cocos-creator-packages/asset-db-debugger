@@ -3,10 +3,6 @@
   "version": "0.1.4",
   "description": "asset-db-debugger",
   "author": "Firebox Technology",
-  "hosts": {
-    "asset-db": "^0.2.2",
-    "editor-framework": "^0.5.0"
-  },
   "main": "main.js",
   "main-menu": {
     "i18n:MAIN_MENU.developer.title/AssetDB Debugger": {
