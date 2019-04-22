@@ -1,13 +1,15 @@
-:host {
-    @apply(--layout-vertical);
-
-    overflow: auto;;
+#toolBar {
+    border-bottom: 1px solid #666;
 }
 
-editor-buttons-item {
-    font-weight: normal;
-    height: 16px;
-    padding: 0px 4px;
+#btn-refresh, #select-box, #search-box {
+    height: 20px;
+    margin: 5px;
+}
+
+#search-box {
+    width: 400px;
+    margin-left: auto;
 }
 
 .view {
@@ -63,8 +65,4 @@ th, td {
 }
 th:first-child, td:first-child {
     border-left: 0px;
-}
-
-.space {
-    width: 5px;
 }
