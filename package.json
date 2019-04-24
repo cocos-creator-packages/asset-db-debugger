@@ -11,10 +11,12 @@
     }
   },
   "panel": {
-    "main": "panel/asset-db-debugger.html",
-    "ui": "polymer",
+    "main": "panel/index.js",
     "type": "dockable",
     "title": "AssetDB Debugger",
-    "height": 500
+    "height": 500,
+    "min-height": 500,
+    "width": 480,
+    "min-width": 480
   }
 }

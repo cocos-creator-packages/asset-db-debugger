@@ -21,7 +21,7 @@ module.exports = {
       results.sort( function ( a, b ) {
         return a.url.localeCompare(b.url);
       });
-      event.reply(results);
+      event.reply(null, results);
     },
   },
 };
